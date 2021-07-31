@@ -12,6 +12,10 @@ code {
         monospace;
 }
 
+.logo {
+    margin-left: 20%;
+}
+
 .todo.completed span {
     text-decoration: line-through;
 }

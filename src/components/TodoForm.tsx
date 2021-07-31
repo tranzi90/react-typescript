@@ -24,11 +24,10 @@ const TodoForm: React.FC<TodoFormProps> = ({ onAdd }) => {
                 value={title}
                 type="text"
                 id="title"
-                placeholder="Введите название задачи"
                 onKeyPress={keyPressHandler}
             />
             <label htmlFor="title" className="active">
-                Введите название
+                Введите название задачи
             </label>
         </div>
     )
