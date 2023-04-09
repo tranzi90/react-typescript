@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 const Navbar: React.FunctionComponent = () => (
     <nav>
         <div className="nav-wrapper">
-            <div className='logo'>
-                <a href="#" className="brand-logo">
+            <div className="logo">
+                <a href="/" className="brand-logo">
                     Add your tasks
                 </a>
             </div>
