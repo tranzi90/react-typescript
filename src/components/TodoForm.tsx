@@ -27,7 +27,7 @@ const TodoForm: React.FC<TodoFormProps> = ({ onAdd }) => {
                 onKeyPress={keyPressHandler}
             />
             <label htmlFor="title" className="active">
-                Введите название задачи
+                Type ToDo text and press Enter
             </label>
         </div>
     )
